@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 n = int(input())
-total = 0
 total_c = 0
 total_r = 0
 total_s = 0
@@ -10,11 +9,11 @@ for i in range(0, n):
     cobaia = input().split()
     qtd = int(cobaia[0])
     tipo = cobaia[1]
-    if(tipo == 'C'):
+    if tipo == 'C':
         total_c += qtd
-    elif(tipo == 'R'):
+    elif tipo == 'R':
         total_r += qtd
-    elif(tipo == 'S'):
+    elif tipo == 'S':
         total_s += qtd
 
 total = total_c + total_r + total_s

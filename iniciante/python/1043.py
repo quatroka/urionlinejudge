@@ -10,7 +10,7 @@ a = float(line[0])
 b = float(line[1])
 c = float(line[2])
 
-if(a < (b + c) and b < (a + c) and c < (a + b)):
+if a < (b + c) and b < (a + c) and c < (a + b):
     print('Perimetro = %.1f' % (a + b + c))
 else:
     print('Area = %.1f' % (((a + b) * c) / 2))

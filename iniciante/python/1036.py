@@ -8,7 +8,7 @@ c = float(line[2])
 
 delta = b**2 - (4 * a * c)
 
-if(delta <= 0 or a == 0):
+if delta <= 0 or a == 0:
     print('Impossivel calcular')
 else:
     r1 = (-b + (delta**(1 / 2))) / (2 * a)

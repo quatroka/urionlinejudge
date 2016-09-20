@@ -5,15 +5,15 @@ gasolina = 0
 diesel = 0
 
 choice = 0
-while(choice != 4):
+while choice != 4:
     choice = int(input())
-    if(choice == 1):
+    if choice == 1:
         alcool += 1
-    elif(choice == 2):
+    elif choice == 2:
         gasolina += 1
-    elif(choice == 3):
+    elif choice == 3:
         diesel += 1
-    elif(choice == 4):
+    elif choice == 4:
         break
 
 print('MUITO OBRIGADO')

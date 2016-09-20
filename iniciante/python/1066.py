@@ -6,13 +6,13 @@ positivo = 0
 negativo = 0
 for i in range(0, 5):
     x = int(input())
-    if(x % 2 == 0):
+    if x % 2 == 0:
         par += 1
-    if(x % 2 == 1):
+    if x % 2 == 1:
         impar += 1
-    if(x > 0):
+    if x > 0:
         positivo += 1
-    if(x < 0):
+    if x < 0:
         negativo += 1
 
 print('%s valor(es) par(es)' % par)

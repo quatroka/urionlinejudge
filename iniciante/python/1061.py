@@ -19,15 +19,15 @@ horas = fim_hora - ini_hora
 minutos = fim_min - ini_min
 segundos = fim_seg - ini_seg
 
-if(segundos < 0):
+if segundos < 0:
     segundos += 60
     minutos -= 1
 
-if(minutos < 0):
+if minutos < 0:
     minutos += 60
     horas -= 1
 
-if(horas < 0):
+if horas < 0:
     horas += 24
     dias -= 1
 

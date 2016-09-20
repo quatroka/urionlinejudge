@@ -12,7 +12,7 @@ line[2] = int(line[2])
 
 for i in range(0, 3):
     for j in range(0, 3):
-        if(line[i] < line[j]):
+        if line[i] < line[j]:
             aux = line[j]
             line[j] = line[i]
             line[i] = aux
