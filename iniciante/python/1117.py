@@ -10,4 +10,4 @@ while x < 2:
         media += n
         x += 1
 
-print('media = %s' % (media / 2))
+print('media = {0!s}'.format((media / 2)))

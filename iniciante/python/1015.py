@@ -10,4 +10,4 @@ x2 = float(p2[0])
 y2 = float(p2[1])
 
 dist = ((x2 - x1)**2 + (y2 - y1)**2)**(1 / 2)
-print('%.4f' % dist)
+print('{0:.4f}'.format(dist))

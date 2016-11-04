@@ -12,4 +12,4 @@ while True:
         cont += 1
         media += n
 
-print('%.2f' % (media / cont))
+print('{0:.2f}'.format((media / cont)))

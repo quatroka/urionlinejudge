@@ -7,4 +7,4 @@ n %= 3600
 minutos = n // 60
 n %= 60
 
-print('%d:%d:%d' % (horas, minutos, n))
+print('{0:d}:{1:d}:{2:d}'.format(horas, minutos, n))

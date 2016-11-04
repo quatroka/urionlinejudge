@@ -6,4 +6,4 @@ for i in range(0, 6):
     if x > 0:
         cont += 1
 
-print('%s valores positivos' % cont)
+print('{0!s} valores positivos'.format(cont))

@@ -9,4 +9,4 @@ for i in range(0, n):
     if y == 0:
         print('divisao impossivel')
     else:
-        print('%.1f' % float(x / y))
+        print('{0:.1f}'.format(float(x / y)))

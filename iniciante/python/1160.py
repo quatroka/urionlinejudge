@@ -20,4 +20,4 @@ for i in range(0, t):
     if anos > 100:
         print('Mais de 1 seculo.')
     else:
-        print('%s anos.' % anos)
+        print('{0!s} anos.'.format(anos))

@@ -26,6 +26,6 @@ elif salario > 2000:
     salario += reajuste
     perc = '4 %'
 
-print('Novo salario: %.2f' % salario)
-print('Reajuste ganho: %.2f' % reajuste)
-print('Em percentual: %s' % perc)
+print('Novo salario: {0:.2f}'.format(salario))
+print('Reajuste ganho: {0:.2f}'.format(reajuste))
+print('Em percentual: {0!s}'.format(perc))

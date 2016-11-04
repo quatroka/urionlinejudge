@@ -11,5 +11,5 @@ for i in range(len(x)):
         menor = x[i]
         posicao = i
 
-print('Menor valor: %s' % menor)
-print('Posicao: %s' % posicao)
+print('Menor valor: {0!s}'.format(menor))
+print('Posicao: {0!s}'.format(posicao))

@@ -13,5 +13,5 @@ if delta <= 0 or a == 0:
 else:
     r1 = (-b + (delta**(1 / 2))) / (2 * a)
     r2 = (-b - (delta**(1 / 2))) / (2 * a)
-    print('R1 = %.5f' % r1)
-    print('R2 = %.5f' % r2)
+    print('R1 = {0:.5f}'.format(r1))
+    print('R2 = {0:.5f}'.format(r2))

@@ -11,10 +11,10 @@ while True:
     else:
         if x > y:
             for i in range(y, x + 1):
-                nums += '%s ' % i
+                nums += '{0!s} '.format(i)
                 soma += i
         else:
             for i in range(x, y + 1):
-                nums += '%s ' % i
+                nums += '{0!s} '.format(i)
                 soma += i
-        print('%sSum=%s' % (nums, soma))
+        print('{0!s}Sum={1!s}'.format(nums, soma))

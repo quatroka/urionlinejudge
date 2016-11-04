@@ -11,6 +11,6 @@ for i in range(0, cases):
             soma += j
 
     if soma != n:
-        print('%s nao eh perfeito' % n)
+        print('{0!s} nao eh perfeito'.format(n))
     else:
-        print('%s eh perfeito' % n)
+        print('{0!s} eh perfeito'.format(n))

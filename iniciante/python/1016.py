@@ -3,4 +3,4 @@
 n = int(input())
 total = n * 2
 
-print('%d minutos' % total)
+print('{0:d} minutos'.format(total))

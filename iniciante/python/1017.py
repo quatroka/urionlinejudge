@@ -6,4 +6,4 @@ vm = int(input())
 s = t * vm
 litros = s / 12.0
 
-print('%.3f' % litros)
+print('{0:.3f}'.format(litros))

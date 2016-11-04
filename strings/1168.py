@@ -19,4 +19,4 @@ for i in range(0, casos):
         elif num[j] == '8':
             leds += 7
 
-    print('%d leds' % leds)
+    print('{0:d} leds'.format(leds))

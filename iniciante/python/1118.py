@@ -14,7 +14,7 @@ while choice == 1:
         if nota2 < 0 or nota2 > 10:
             print('nota invalida')
 
-    print('media = %.2f' % ((nota1 + nota2) / 2))
+    print('media = {0:.2f}'.format(((nota1 + nota2) / 2)))
 
     choice = 99
     while choice == 99:

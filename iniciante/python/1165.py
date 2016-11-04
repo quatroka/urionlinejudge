@@ -12,6 +12,6 @@ for i in range(0, cases):
             break
 
     if primo == False:
-        print('%s nao eh primo' % n)
+        print('{0!s} nao eh primo'.format(n))
     else:
-        print('%s eh primo' % n)
+        print('{0!s} eh primo'.format(n))

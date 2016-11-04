@@ -21,6 +21,6 @@ for k in range(0, len(matriz)):
 
 
 if operation == 'S':
-    print('%.1f' % soma)
+    print('{0:.1f}'.format(soma))
 else:
-    print('%.1f' % (soma / elementos))
+    print('{0:.1f}'.format((soma / elementos)))

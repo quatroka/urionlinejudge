@@ -10,6 +10,6 @@ while True:
         atraso = 0
         if horas >= 7:
             atraso = (horas - 7) * 60 + minutos
-        print('Atraso maximo: %s' % atraso)
+        print('Atraso maximo: {0!s}'.format(atraso))
     except EOFError:
         break

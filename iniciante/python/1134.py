@@ -17,6 +17,6 @@ while choice != 4:
         break
 
 print('MUITO OBRIGADO')
-print('Alcool: %s' % alcool)
-print('Gasolina: %s' % gasolina)
-print('Diesel: %s' % diesel)
+print('Alcool: {0!s}'.format(alcool))
+print('Gasolina: {0!s}'.format(gasolina))
+print('Diesel: {0!s}'.format(diesel))

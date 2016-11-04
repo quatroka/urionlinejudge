@@ -8,5 +8,5 @@ for i in range(0, 6):
         media += x
         cont += 1
 
-print('%s valores positivos' % cont)
-print('%.1f' % (media / cont))
+print('{0!s} valores positivos'.format(cont))
+print('{0:.1f}'.format((media / cont)))

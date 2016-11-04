@@ -2,4 +2,4 @@
 
 line = input().split()
 
-print('%s' % (int(line[0]) * int(line[1])))
+print('{0!s}'.format((int(line[0]) * int(line[1]))))

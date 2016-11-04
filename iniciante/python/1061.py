@@ -31,7 +31,7 @@ if horas < 0:
     horas += 24
     dias -= 1
 
-print('%s dia(s)' % dias)
-print('%s hora(s)' % horas)
-print('%s minuto(s)' % minutos)
-print('%s segundo(s)' % segundos)
+print('{0!s} dia(s)'.format(dias))
+print('{0!s} hora(s)'.format(horas))
+print('{0!s} minuto(s)'.format(minutos))
+print('{0!s} segundo(s)'.format(segundos))

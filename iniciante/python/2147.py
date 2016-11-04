@@ -4,4 +4,4 @@ tests = int(input())
 
 for i in range(0, tests):
     text = input()
-    print('%.2f' % (len(text) / 100))
+    print('{0:.2f}'.format((len(text) / 100)))

@@ -8,4 +8,4 @@ for j in range(0, 10):
     n[j], n[19 - j] = n[19 - j], n[j]
 
 for k in range(0, 20):
-    print('N[%s] = %s' % (k, n[k]))
+    print('N[{0!s}] = {1!s}'.format(k, n[k]))
