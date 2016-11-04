@@ -10,4 +10,4 @@ for i in range(0, 61):
 t = int(input())
 for j in range(0, t):
     n = int(input())
-    print('Fib(%s) = %s' % (n, seq_fibo[n]))
+    print('Fib({0!s}) = {1!s}'.format(n, seq_fibo[n]))

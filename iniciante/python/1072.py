@@ -11,5 +11,5 @@ for i in range(0, n):
         cont_in += 1
     else:
         cont_out += 1
-print('%s in' % cont_in)
-print('%s out' % cont_out)
+print('{0!s} in'.format(cont_in))
+print('{0!s} out'.format(cont_out))

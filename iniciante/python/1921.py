@@ -2,4 +2,4 @@
 
 lados = int(input())
 
-print('%.0f' % (lados * (lados - 3) / 2))
+print('{0:.0f}'.format((lados * (lados - 3) / 2)))

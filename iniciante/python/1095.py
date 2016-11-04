@@ -4,6 +4,6 @@ i = 1
 j = 60
 
 while j != -5:
-    print('I=%s J=%s' % (i, j))
+    print('I={0!s} J={1!s}'.format(i, j))
     i += 3
     j -= 5

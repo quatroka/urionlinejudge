@@ -10,4 +10,4 @@ for i in range(0, n):
 
     media = (a * 2 + b * 3 + c * 5) / 10
 
-    print('%.1f' % media)
+    print('{0:.1f}'.format(media))

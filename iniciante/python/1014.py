@@ -3,4 +3,4 @@
 x = float(input())
 y = float(input())
 
-print('%.3f km/l' % (x / y))
+print('{0:.3f} km/l'.format((x / y)))

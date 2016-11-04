@@ -26,4 +26,4 @@ else:
     if salario > 0:
         imposto += salario * 0.28
 
-    print('R$ %.2f' % imposto)
+    print('R$ {0:.2f}'.format(imposto))

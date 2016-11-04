@@ -18,6 +18,6 @@ for item in matriz[line]:
     soma += item
 
 if operation == 'S':
-    print('%.1f' % soma)
+    print('{0:.1f}'.format(soma))
 else:
-    print('%.1f' % (soma / 12))
+    print('{0:.1f}'.format((soma / 12)))

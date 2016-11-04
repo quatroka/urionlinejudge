@@ -28,10 +28,10 @@ while choice == 1:
         else:
             choice = 1
 
-print('%s grenais' % cont)
-print('Inter:%s' % inter)
-print('Gremio:%s' % gremio)
-print('Empates:%s' % empates)
+print('{0!s} grenais'.format(cont))
+print('Inter:{0!s}'.format(inter))
+print('Gremio:{0!s}'.format(gremio))
+print('Empates:{0!s}'.format(empates))
 
 if gremio > inter:
     print('Gremio venceu mais')
