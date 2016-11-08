@@ -13,7 +13,7 @@ print('Media: {0:.1f}'.format(media))
 
 if media >= 7:
     print('Aluno aprovado.')
-elif media < 7 and media >= 5:
+elif 5 <= media < 7:
     print('Aluno em exame.')
     n_exame = float(input())
     print('Nota do exame: {0:.1f}'.format(n_exame))
