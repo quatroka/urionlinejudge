@@ -6,8 +6,8 @@ DROP TABLE IF EXISTS prices;
 DROP TABLE IF EXISTS categories;
 DROP TABLE IF EXISTS providers;
 DROP TABLE IF EXISTS orders;
-DROP TABLE IF EXISTS customers;
 DROP TABLE IF EXISTS legal_person;
+DROP TABLE IF EXISTS customers;
 CREATE TABLE customers (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255),
@@ -17,7 +17,7 @@ CREATE TABLE customers (
     credit_limit NUMERIC
 );
 CREATE TABLE legal_person (
-    id_customers INTEGER REFERENCES customers(id),
+    id_customers SERIAL REFERENCES customers(id),
     cnpj CHAR(18),
     contact VARCHAR(255)
 );
